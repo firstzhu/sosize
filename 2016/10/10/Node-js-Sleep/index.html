@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, Blog" />
+  <meta name="keywords" content="Node.js sleep," />
 
 
 
@@ -84,15 +84,16 @@
 
 
 
-<meta name="description" content="this is a blog zone">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Sosize Hexo Blog">
-<meta property="og:url" content="http://sosize.com/archives/index.html">
+<meta name="description" content="方案最佳：co+yield代码示例(“co”: “^1.5.2”)12345678910111213const co = require(&apos;co&apos;);function sleep(ms) &amp;#123;   return function(cb) &amp;#123;      setTimeout(cb, ms)   &amp;#125;&amp;#125;co(function () &amp;#123;    //do so">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Node.js Sleep实现">
+<meta property="og:url" content="http://sosize.com/2016/10/10/Node-js-Sleep/index.html">
 <meta property="og:site_name" content="Sosize Hexo Blog">
-<meta property="og:description" content="this is a blog zone">
+<meta property="og:description" content="方案最佳：co+yield代码示例(“co”: “^1.5.2”)12345678910111213const co = require(&apos;co&apos;);function sleep(ms) &amp;#123;   return function(cb) &amp;#123;      setTimeout(cb, ms)   &amp;#125;&amp;#125;co(function () &amp;#123;    //do so">
+<meta property="og:updated_time" content="2016-10-10T10:16:52.162Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Sosize Hexo Blog">
-<meta name="twitter:description" content="this is a blog zone">
+<meta name="twitter:title" content="Node.js Sleep实现">
+<meta name="twitter:description" content="方案最佳：co+yield代码示例(“co”: “^1.5.2”)12345678910111213const co = require(&apos;co&apos;);function sleep(ms) &amp;#123;   return function(cb) &amp;#123;      setTimeout(cb, ms)   &amp;#125;&amp;#125;co(function () &amp;#123;    //do so">
 
 
 
@@ -113,9 +114,9 @@
 
 
 
-  <link rel="canonical" href="http://sosize.com/archives/"/>
+  <link rel="canonical" href="http://sosize.com/2016/10/10/Node-js-Sleep/"/>
 
-  <title> 归档 | Sosize Hexo Blog </title>
+  <title> Node.js Sleep实现 | Sosize Hexo Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -136,7 +137,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -247,103 +248,134 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 2 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
-
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
-        </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/10/10/Node-js-Sleep/" itemprop="url">
-              
-                <span itemprop="name">Node.js Sleep实现</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-10-10T17:53:08+08:00"
-              content="2016-10-10" >
-          10-10
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/08/09/使用Hexo/" itemprop="url">
-              
-                <span itemprop="name">使用Hexo</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-08-09T14:56:43+08:00"
-              content="2016-08-09" >
-          08-09
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-  </section>
 
   
+  
 
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Node.js Sleep实现
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-10-10T17:53:08+08:00" content="2016-10-10">
+              2016-10-10
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/10/10/Node-js-Sleep/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/10/Node-js-Sleep/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="方案"><a href="#方案" class="headerlink" title="方案"></a>方案</h2><p>最佳：co+yield<br>代码示例(“co”: “^1.5.2”)<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">const</span> co = <span class="built_in">require</span>(<span class="string">'co'</span>);</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">sleep</span>(<span class="params">ms</span>) </span>&#123;</div><div class="line">   <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params">cb</span>) </span>&#123;</div><div class="line">      setTimeout(cb, ms)</div><div class="line">   &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">co(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="comment">//do something</span></div><div class="line">    <span class="keyword">yield</span> sleep(<span class="number">1000</span>)</div><div class="line">    <span class="comment">//do next somthing</span></div><div class="line">&#125;)()</div></pre></td></tr></table></figure></p>
+<p>说白了就是利用javascript的Promise特性实现<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">(<span class="keyword">new</span> <span class="built_in">Promise</span>(step1))</div><div class="line">  .then(step2)</div><div class="line">  .then(step3)</div><div class="line">  .then(step4);</div></pre></td></tr></table></figure></p>
+<p>还有一种好用的方案是利用node-fibers<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> Fiber = <span class="built_in">require</span>(<span class="string">'fibers'</span>);</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">sleep</span>(<span class="params">ms</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> fiber = Fiber.current;</div><div class="line">    setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">        fiber.run();</div><div class="line">    &#125;, ms);</div><div class="line">    Fiber.yield();</div><div class="line">&#125;</div><div class="line"></div><div class="line">Fiber(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'wait... '</span> + <span class="keyword">new</span> <span class="built_in">Date</span>);</div><div class="line">    sleep(<span class="number">1000</span>);</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'ok... '</span> + <span class="keyword">new</span> <span class="built_in">Date</span>);</div><div class="line">&#125;).run();</div><div class="line"><span class="built_in">console</span>.log(<span class="string">'back in main'</span>);</div></pre></td></tr></table></figure></p>
+<p>但是，坑的是electron不能使用该框架（提示node-fibers找不到），谷歌也没具体答案，不然的话感觉确实比较好用。</p>
+<p>##总结<br>使用下来，感觉用node.js实现顺序执行，很别扭，但是实际开发还是很多场景需要用到顺序执行，比如执行后要等上一个结果后再执行下一步（如果用回调，会疯掉）</p>
+<p>PS：electron开发桌面应用目前资料还是偏少，感觉有不少的坑。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Node-js-sleep/" rel="tag">#Node.js sleep</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/08/09/使用Hexo/" rel="next" title="使用Hexo">
+                <i class="fa fa-chevron-left"></i> 使用Hexo
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -351,6 +383,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/10/10/Node-js-Sleep/"
+           data-title="Node.js Sleep实现" data-url="http://sosize.com/2016/10/10/Node-js-Sleep/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -370,8 +410,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.png"
@@ -420,6 +469,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#方案"><span class="nav-number">1.</span> <span class="nav-text">方案</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -516,11 +576,9 @@
   
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
 
 
   
